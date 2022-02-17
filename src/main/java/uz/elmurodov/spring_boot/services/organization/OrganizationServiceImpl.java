@@ -17,8 +17,6 @@ import uz.elmurodov.spring_boot.utils.validators.organization.OrganizationValida
 
 import java.util.List;
 
-import static uz.elmurodov.spring_boot.utils.FileUploadUtils.UPLOAD_DIRECTORY;
-
 @Service
 public class OrganizationServiceImpl extends AbstractService<OrganizationRepository, OrganizationMapper, OrganizationValidator>
         implements OrganizationService {
